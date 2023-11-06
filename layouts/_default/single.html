@@ -109,6 +109,14 @@
                 {{- partial "comment.html" . -}}
                 {{ end }}
             </div>
+    <!-- Add mermaid min js file -->
+    {{ if .Page.Store.Get "hasMermaid" }}
+        <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, align: "center" });
+        </script>
+    {{ end }}
+
         </div>
     </div>
 
