@@ -137,7 +137,7 @@ code {
   background: rgba($color-accent, 0.07);
   padding: 2px 5px;
   border-radius: 3px;
-  font-family: $code-block-font-list;
+  font-family: $mono-font-list;
 }
 
 pre {
@@ -146,10 +146,10 @@ pre {
   background: rgba($color-accent, 0.07);
   padding: 12px 15px;
   border-radius: 5px;
-  font-family: $code-block-font-list;
+  font-family: $mono-font-list;
   * {
     background: none;
-    font-family: $code-block-font-list !important;
+    font-family: $mono-font-list !important;
   }
   code {
     padding: 0;
