@@ -140,6 +140,15 @@ body.night {
           * {
             color: $dark-mode-text;
           }
+          .post-item-title {
+            color: $dark-mode-text !important;
+          }
+          .post-item-summary {
+            color: #aaa !important;
+          }
+          .post-item-meta {
+            color: #888 !important;
+          }
           .post-item-info-wrapper {
             @media screen and (max-width: $single-column-max-width) {
               box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
